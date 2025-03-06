@@ -11,7 +11,7 @@ const app = express(); // Instancia o Express
 const port = 3000; // Define a porta
 
 app.use(express.json());
-app.use(cors());
+app.use(cors())
 app.use(roteadorUsuario);
 app.use(roteadorLogin);
 
