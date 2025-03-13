@@ -8,6 +8,9 @@ import {
   updateUsuario,
 } from "../db/index.js";
 
+import verificarAutenticacao from "../middlewares/autenticacao.js";
+
+
 const router = Router();
 
 router.get("/usuario", async (req, res) => {
