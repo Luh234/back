@@ -2,7 +2,6 @@ import { Router } from "express";
 import jwt from "jsonwebtoken";
 import { autenticarUsuario } from "../db/index.js";
 
-
 const router = Router();
 
 router.post("/login", async (req, res) => {
